@@ -1,7 +1,7 @@
 part of 'expense_form_bloc.dart';
 
 @Equatable()
-class ExpenseFormEvent {
+abstract class ExpenseFormEvent {
   const ExpenseFormEvent();
 }
 

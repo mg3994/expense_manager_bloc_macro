@@ -1,7 +1,7 @@
 part of 'expense_list_bloc.dart';
 
 @Equatable()
-class ExpenseListEvent {
+abstract class ExpenseListEvent {
   const ExpenseListEvent();
 }
 
